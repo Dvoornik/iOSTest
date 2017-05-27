@@ -23,7 +23,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func ClickButton(_ sender: Any) {
+    @IBAction func ClickButton(_ sender: Any)
+    {
         
         Label.text = TextField.text
     }
