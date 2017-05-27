@@ -23,6 +23,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func deleteText(_ sender: Any) {
+        Label.text = nil
+        TextField.text = nil
+    }
     @IBAction func ClickButton(_ sender: Any)
     {
         
